@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fadili Shop - Parfumerie</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>Fadili Shop</h1>
+            <p>Your Fragrance, Your Style</p>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#homme">Homme</a></li>
+                <li><a href="#femme">Femme</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="homme">
+            <h2>Parfums pour Homme</h2>
+            <div class="product">
+                <img src="parfum-homme1.jpg" alt="Parfum Homme 1">
+                <h3>Parfum Homme 1</h3>
+                <p>Description du parfum homme 1.</p>
+                <p class="price">$50.00</p>
+            </div>
+            <div class="product">
+                <img src="parfum-homme2.jpg" alt="Parfum Homme 2">
+                <h3>Parfum Homme 2</h3>
+                <p>Description du parfum homme 2.</p>
+                <p class="price">$60.00</p>
+            </div>
+        </section>
+
+        <section id="femme">
+            <h2>Parfums pour Femme</h2>
+            <div class="product">
+                <img src="parfum-femme1.jpg" alt="Parfum Femme 1">
+                <h3>Parfum Femme 1</h3>
+                <p>Description du parfum femme 1.</p>
+                <p class="price">$55.00</p>
+            </div>
+            <div class="product">
+                <img src="parfum-femme2.jpg" alt="Parfum Femme 2">
+                <h3>Parfum Femme 2</h3>
+                <p>Description du parfum femme 2.</p>
+                <p class="price">$65.00</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2024 Fadili Shop. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
